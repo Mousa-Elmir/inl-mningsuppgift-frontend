@@ -1,0 +1,110 @@
+/* Toggle Switch Container */
+.dark-mode-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  .dark-mode-toggle input {
+    display: none;  /* Göm checkboxen */
+  }
+  
+  /* Slider för Toggle Switch */
+  .slider {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 34px;
+    transition: background-color 0.4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: transform 0.4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(20px);
+  }
+
+
+  /* Dark Mode Toggle Button */
+.dark-mode-toggle {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  font-size: 1em;
+}
+
+body.dark-theme {
+  background-color: rgb(24, 22, 22);
+  color: #ffffff;
+}
+
+body.dark-theme .second-section,
+body.dark-theme .third-section,
+body.dark-theme .fifth-section,
+body.dark-theme .hero,
+body.dark-theme .newsletter-section,
+body.dark-theme .newsletter-container,
+body.dark-theme .review {
+  background-color: #3c233f;
+}
+body.dark-theme .contact-box,
+body.dark-theme .footer,
+body.dark-theme .fourth-section,
+body.dark-theme .faq-section,
+body.dark-theme .features,
+body.dark-theme header {
+  background-color: black;
+}
+
+body.dark-theme .features__logos img {
+  filter: invert(20%) sepia(20%) saturate(600%) hue-rotate(240deg);
+  
+}
+
+
+
+
+body.dark-theme h1,
+body.dark-theme h2,
+body.dark-theme h3,
+body.dark-theme p,
+body.dark-theme a {
+  color: #ffffff;
+}
+
+body.dark-theme .faq-answer {
+  background-color: #3c233f;
+}
+
+body.dark-theme header .features,
+body.dark-theme header .contact-link,
+body.dark-theme header .sign-in,
+body.dark-theme main h1,
+body.dark-theme main p,
+body.dark-theme .second-section h2,
+body.dark-theme .features-content h2,
+body.dark-theme .features-content p,
+body.dark-theme .third-section h2,
+body.dark-theme .section-footer,
+body.dark-theme .section-des {
+  color: #fff !important;
+}

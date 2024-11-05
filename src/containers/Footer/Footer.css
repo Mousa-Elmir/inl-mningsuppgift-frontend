@@ -1,0 +1,8 @@
+footer {
+    text-align: center !important; /* Centrerar texten */
+    font-weight: bold; /* Gör texten fet */
+    padding: 20px; /* Lägg till lite utrymme ovanför och under texten */
+    font-size: 1.1em; /* Gör texten lite större för tydlighet */
+    color: #333; /* Valfritt: Justera textfärgen för att få bättre läsbarhet */
+  }
+  

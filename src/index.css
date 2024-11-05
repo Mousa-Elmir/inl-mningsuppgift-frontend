@@ -1,0 +1,22 @@
+
+:root {
+    /* Grundfärger */
+    --primary-color: #F3F6FF;
+    --secondary-color: #fff;
+    --text-color: #333;
+    
+    /* Dark Mode */
+    --dark-background: #000106;
+    --dark-text: #ffffff;
+  }
+  
+  body {
+    color: var(--text-color);
+  }
+  
+  body.dark-theme {
+    --primary-color: #1a1a2e; 
+    --secondary-color: #333; 
+    --third-color: #444;
+  }
+  

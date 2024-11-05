@@ -1,0 +1,4 @@
+body {
+    margin: 0; /* Ta bort inbyggd marginal */
+    padding: 0; /* Ta bort eventuell inbyggd padding */
+}

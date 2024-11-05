@@ -1,0 +1,132 @@
+.contact-section {
+    background-color: #F3F6FF;
+    /* padding: 50px 0; Padding ovanför och under sektionen */
+  }
+  
+  
+
+.contact-container {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 80px;
+    padding: 40px 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-info {
+    flex: 1;
+    padding: 40px;
+    border-radius: 15px;
+  }
+  
+  .contact-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 80px;
+  }
+  
+  .contact-option {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-icon {
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 15px;
+  }
+  
+  .contact-description {
+    color: #666;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .contact-link {
+    color: #4A90E2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .consultation-form {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    padding-bottom: 130px;
+    padding-top: 130px;
+    transform: translateY(100px);
+  }
+  
+  .form-title {
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: -50px;
+  }
+  
+  .form-label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+  }
+  
+  input,
+  select {
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .appointment-button {
+    background-color: #4f46e5;
+    color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .appointment-button:hover {
+    background-color: #3a74c0;
+  }
+  
+  .error-text {
+    color: red;
+    font-size: 0.9em;
+  }
+  body.dark-theme .consultation-form,
+  body.dark-theme .contact-section {
+    background-color: #3c233f;
+  }
+  
+  
+  body.dark-theme .medical-centers-section,
+  body.dark-theme .medical-centers-info {
+    background-color: black; /* Samma mörka bakgrundsfärg som för andra sektioner */
+  }
+  
+  body.dark-theme h2,
+  body.dark-theme h3,
+  body.dark-theme p,
+  body.dark-theme a,
+  body.dark-theme .contact-link {
+    color: #ffffff; /* Vit text för att stå ut mot mörk bakgrund */
+  }
+  
+  body.dark-theme .appointment-button {
+    background-color: #4A90E2; /* Bibehåll färgen på knapparna för att hålla konsistens */
+  }
+  

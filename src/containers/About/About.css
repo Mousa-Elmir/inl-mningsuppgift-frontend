@@ -1,0 +1,18 @@
+
+
+.about {
+    
+    background-color: var(--color-footer-background);
+    color: var(--text-color);
+  }
+  
+  .about h2 {
+    text-align: center;
+  }
+  
+  .about p {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  

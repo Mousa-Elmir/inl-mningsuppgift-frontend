@@ -1,0 +1,41 @@
+.third-section {
+    background-color: var(--primary-color);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.third-section h2 {
+    font-size: 33px;
+    color: #333;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.phones-ex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-bottom: 40px;
+}
+
+.phone-example {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.section-footer {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin: 0 auto;
+}
+
+.section-des {
+    color: #666;
+    font-size: 20px;
+    margin: 0 auto;
+    max-width: 700px;
+}

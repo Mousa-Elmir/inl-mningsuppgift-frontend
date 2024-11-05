@@ -1,0 +1,76 @@
+.newsletter-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: var(--secondary-color);
+  }
+  
+  .newsletter-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f5f7ff;
+    padding: 50px;
+    border-radius: 10px;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .newsletter-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+  }
+  
+  .newsletter-content img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .newsletter-content h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-container input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .input-container button {
+    padding: 10px 20px;
+    background-color: #6366f1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    transition: background-color 0.3s;
+  }
+  
+  .input-container button:hover {
+    background-color: #4f46e5;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+  

@@ -1,0 +1,129 @@
+* {
+  max-width: 100%;
+}
+
+.hero {
+  background: linear-gradient(365deg, #6366f11a 0%, #da46ef0d 42%, #f1f4fd12 83%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  color: var(--color-text);
+  margin: 0; /* Tar bort eventuell marginal så att bakgrunden täcker helt */
+  position: relative;
+  height: auto; /* Se till att täcka innehållets höjd */
+}
+.hero__content {
+  flex: 1;
+  max-width: 300px; /* Mindre maxbredd för att göra innehållet kompaktare */
+  padding-right: 100px; /* Flytta texten något närmare mitten */
+  
+}
+
+.hero__content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--color-text);
+  transform: translateX(850px); /* Flyttar bilden 50px åt vänster */
+}
+
+.hero__content p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  color: var(--color-secondary-text);
+  transform: translateX(855px); /* Flyttar bilden 50px åt vänster */
+}
+
+.hero__buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  transform: translateX(850px); /* Flyttar bilden 50px åt vänster */
+}
+
+.hero__store-button {
+  width: 150px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.hero__store-button:hover {
+  transform: scale(1.05);
+}
+
+.hero__image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  transform: translateX(-750px); /* Flyttar bilden 50px åt vänster */
+  right: 0;
+}
+
+.hero__image img {
+  max-width: 120%; /* Begränsa maxbredd till 80% för att inte ta upp hela utrymmet */
+  height: auto;
+}
+
+.hero__discover {
+  margin-top: 40px; /* Lägger till lite utrymme för att separera från resten av innehållet */
+  text-align: center;
+  transform: translateX(-2300px); /* Flyttar bilden 50px åt vänster */
+  margin-top: 500px;
+}
+
+.hero__discover-link {
+  color: var(--color-secondary);
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.hero__discover-link:hover {
+  color: var(--color-primary);
+}
+
+/* @media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+
+  .hero__content {
+    max-width: 100%;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .hero__content h1 {
+    font-size: 2rem;
+    transform: translateX(0);
+  }
+
+  .hero__content p {    
+    font-size: 1rem;
+    transform: translateX(0);
+  }
+
+  .hero__buttons {
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(0); /* Flyttar bilden 50pxåt vänster */
+  /* } */
+
+  /* .hero__image {
+    justify-content: center;
+    transform: translateX(0);
+  }
+  .hero__discover {
+    transform: translateX(0);
+  }
+  .hero__store-button {
+    margin-bottom: 20px;
+  }
+  .hero__discover-link {
+    font-size: 1rem;
+  }
+  .hero__discover-link:hover {
+    color: var(--color-primary);
+  }
+} */
