@@ -7,7 +7,7 @@ const DarkModeToggle = () => {
   useEffect(() => {
     const darkModeSwitch = document.getElementById("darkModeSwitch");
 
-    // Add click event listener to toggle dark mode
+   
     const handleToggle = () => {
       setDarkMode(!darkMode);
       document.body.classList.toggle("dark-theme");
