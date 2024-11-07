@@ -10,7 +10,7 @@ const SectionSix = () => {
   useEffect(() => {
     const fetchFaqs = async () => {
       try {
-        // Ändrat URL till att stämma med vad du postade tidigare
+        
         const res = await fetch('https://win24-assignment.azurewebsites.net/api/faq', {
           method: 'GET',
           headers: {
@@ -23,7 +23,7 @@ const SectionSix = () => {
         }
 
         const data = await res.json();
-        console.log(data); // Konsol-logga datan för felsökning
+        console.log(data); 
         setFaqs(data);
       } catch (error) {
         console.error('Error fetching FAQs:', error);
