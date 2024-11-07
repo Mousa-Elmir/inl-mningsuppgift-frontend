@@ -14,7 +14,7 @@ const Newsletter = () => {
     e.preventDefault();
     if (validateEmail(email)) {
       setError('');
-      // Gör något med e-posten, t.ex. skicka den till servern
+     
       console.log('E-post inskickad:', email);
     } else {
       setError('Ange en giltig e-postadress.');
@@ -22,7 +22,7 @@ const Newsletter = () => {
   };
 
   const validateEmail = (email) => {
-    // Enkel e-postvalidering
+ 
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   };
 
