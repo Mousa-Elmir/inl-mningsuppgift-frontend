@@ -1,9 +1,8 @@
 import React from 'react';
 import './Hero.css';
-import googlePlayLogo from '../../assets/images/googleplay.svg';  // Uppdatera sökvägen om det behövs
-import appStoreLogo from '../../assets/images/appstore.svg';     // Uppdatera sökvägen om det behövs
-import phoneImage from '../../assets/images/2in1phones.svg';     // Uppdatera sökvägen om det behövs
-
+import googlePlayLogo from '../../assets/images/googleplay.svg';  
+import appStoreLogo from '../../assets/images/appstore.svg';    
+import phoneImage from '../../assets/images/2in1phones.svg';    
 const Hero = () => {
   return (
     <section className="hero">
