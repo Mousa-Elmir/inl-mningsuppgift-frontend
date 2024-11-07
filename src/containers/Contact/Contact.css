@@ -115,7 +115,7 @@
   
   body.dark-theme .medical-centers-section,
   body.dark-theme .medical-centers-info {
-    background-color: black; /* Samma mörka bakgrundsfärg som för andra sektioner */
+    background-color: black; 
   }
   
   body.dark-theme h2,
@@ -123,10 +123,10 @@
   body.dark-theme p,
   body.dark-theme a,
   body.dark-theme .contact-link {
-    color: #ffffff; /* Vit text för att stå ut mot mörk bakgrund */
+    color: #ffffff; 
   }
   
   body.dark-theme .appointment-button {
-    background-color: #4A90E2; /* Bibehåll färgen på knapparna för att hålla konsistens */
+    background-color: #4A90E2; 
   }
   
