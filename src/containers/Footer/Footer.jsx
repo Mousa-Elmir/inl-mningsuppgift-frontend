@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css'; // Se till att denna CSS-fil är länkad korrekt
+import './Footer.css'; 
 
 const Footer = () => {
   return (
